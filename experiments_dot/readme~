@@ -1,0 +1,11 @@
+This folder contains outputs of four learning experiments. 
+The system under learning has been wishbone slave interface of the Position Evaluation (available in SVN: Projects/Robot/Robot Controller/robot_controller_ent/wishbone_bus/wb_peu_slave.vhd).
+
+The labels next to the transitions, TUV/XYZ, denotes inputs/outputs:
+   T = WE_I
+   U = CYC_I 
+   V = STB_I
+   
+   X = ACK_O
+   Y = NOT_CYC_WRITE
+   Z = NOT_CYC_READ
